@@ -31,7 +31,7 @@ public class delete {
             if (rows > 0) {
                 System.out.println("Movie deleted successfully 🗑️");
             } else {
-                System.out.println("Movie not found ❌");
+                System.out.println("Movie not found ");
             }
 
             ps.close();
@@ -43,3 +43,4 @@ public class delete {
         }
     }
 }
+
