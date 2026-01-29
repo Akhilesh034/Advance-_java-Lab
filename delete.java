@@ -29,7 +29,7 @@ public class delete {
             int rows = ps.executeUpdate();
 
             if (rows > 0) {
-                System.out.println("Movie deleted successfully 🗑️");
+                System.out.println("Movie deleted successfully ");
             } else {
                 System.out.println("Movie not found ");
             }
@@ -43,4 +43,5 @@ public class delete {
         }
     }
 }
+
 
